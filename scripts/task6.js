@@ -9,7 +9,7 @@ let ol = document.createElement("ol");
 
 const output = (toDos) => {
     toDos.forEach((todo) => {
-        toDos.length = 12;
+        toDos.length = 7;
         let title = document.createElement("li");
         title.textContent = todo.title;
 
